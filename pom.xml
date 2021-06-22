@@ -20,26 +20,6 @@
         <jelastic.context>gameoflife</jelastic.context>
         <jelastic.environment>wakaleo</jelastic.environment>
     </properties>
-    
-    <plugin>
-
-<groupId>org.apache.maven.plugins</groupId>
-
-<artifactId>maven-compiler-plugin</artifactId>
-
-<version>3.8.1</version>
-
-<configuration>
-
-<verbose>true</verbose>
-
-<fork>true</fork>
-
-<executable>${/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-1.el7_9.x86_64}/bin/javac</executable>
-
-</configuration>
-
-</plugin>
 
     <scm>
         <connection>scm:git:git@github.com:${github.account}/game-of-life.git</connection>
